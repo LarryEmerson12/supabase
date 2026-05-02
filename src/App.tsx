@@ -19,10 +19,10 @@ export default function App() {
 
   return (
     <main>
-      <h1>Supabase + Vite + React</h1>
+      <h1>Supabase + Vite + React 🌱</h1>
       <h2>Tasks for today:</h2>
       {todos.map((todo) => (
-        <span key={todo.id}>{todo.name}{todo.emoji}</span>
+        <ul key={todo.id}>{todo.name}{todo.emoji}</ul>
       ))}
     </main>
   )
