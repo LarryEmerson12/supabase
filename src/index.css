@@ -13,7 +13,7 @@
 
   --sans: "Gaegu", system-ui, sans-serif;
   --heading: "Gaegu", system-ui, sans-serif;
-  --mono: ui-monospace, Consolas, monospace;
+  --mono: ui-monospace, Roboto Mono, monospace;
 
   font: 18px/145% var(--sans);
   letter-spacing: 0.18px;
@@ -30,7 +30,7 @@
   }
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   :root {
     --text: #9ca3af;
     --text-h: #f3f4f6;
@@ -64,6 +64,7 @@
 
 body {
   margin: 0;
+  background-image: url("/background.jpg");
 }
 
 h1,
@@ -104,8 +105,8 @@ code,
 }
 
 code {
-  font-size: 15px;
+  font-size: 12px;
   line-height: 135%;
-  padding: 4px 8px;
+  padding: 2px 4px;
   background: var(--code-bg);
 }
